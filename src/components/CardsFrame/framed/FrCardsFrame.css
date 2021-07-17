@@ -1,0 +1,40 @@
+.fr_cardsFrame {
+  width: 100%;
+  max-width: 500px;
+}
+
+.fr_cardsFrame .fr_top_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  margin-bottom: 17px;
+}
+
+.fr_cardsFrame .fr_top_row h4 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.fr_cardsFrame .fr_top_row span {
+  color: #464646;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+}
+
+.fr_cardsFrame .fr_top_row span i {
+  color: #5c5c5c;
+  position: absolute;
+  right: -25px;
+  top: 5px;
+}
+
+.fr_cardsFrame .fr_bottom_row {
+  display: flex;
+  align-items: center;
+}
+
+.fr_cardsFrame .fr_song_card:nth-child(2) {
+  margin: 0 20px;
+}

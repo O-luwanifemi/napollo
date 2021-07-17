@@ -1,0 +1,88 @@
+#cassetteBox {
+  display: flex;
+  min-height: 60vh;
+  max-width: 100vw;
+  align-items: center;
+  padding: 2em 0 1em 0;
+  justify-content: space-evenly;
+  background-color: #f68126;
+  overflow-x: hidden !important;
+}
+
+#cassetteBox .lhs {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cassetteBox .lhs img {
+  width: 50%;
+  -webkit-box-shadow: 0px 22px 15px -11px #343434de;
+     -moz-box-shadow: 0px 22px 15px -11px #343434de;
+          box-shadow: 0px 22px 15px -11px #343434de;
+}
+
+#cassetteBox .rhs {
+  width: 60%;
+}
+
+#cassetteBox .rhs h2 {
+  font-size: 65px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  line-height: 65px;
+  font-weight: 900;
+}
+
+#cassetteBox .rhs ul {
+  color: #572D0D;
+  font-size: 17px;
+  font-weight: 600;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 1.8em 0 ;
+}
+
+#cassetteBox .rhs ul li {
+  margin-bottom: 7px;
+  position: relative;
+  padding-left: 1.5em;
+}
+
+#cassetteBox .rhs ul li::before {
+  content: " ";
+  height: 9px;
+  width: 9px;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  border-radius: 50%;
+  background-color: #FFE604;
+}
+
+#cassetteBox .rhs p {
+  width: 150px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50px;
+  margin-left: 3px;
+  transition: .2s ease;
+  -webkit-box-shadow: 0 7px 6px -6px #343434;
+     -moz-box-shadow: 0 7px 6px -6px #343434;
+          box-shadow: 0 7px 6px -6px #343434;
+}
+
+#cassetteBox .rhs p:hover {
+  background-color: #fff;
+}
+
+#cassetteBox .rhs a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #f68126;
+}

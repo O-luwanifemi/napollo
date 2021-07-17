@@ -1,0 +1,103 @@
+#expansionBox {
+  display: flex;
+  color: #fff;
+  max-width: 100vw;
+  min-height: 150vh;
+  align-items: center;
+  background-color: #000;
+  justify-content: flex-end;
+  overflow-x: hidden !important;
+}
+
+.expansionBox__content {
+  min-width: 52%;
+}
+
+.content__head .content__headTitle {
+  font-size: 60px;
+  color: #f68126;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.content__head .content__headParagraph {
+  color: #747474;
+  font-size: 21.5px;
+  letter-spacing: .2px;
+}
+
+.content__body {
+  left: -5px;
+  width: 355px;
+  margin-top: 2em;
+  position: relative;
+}
+
+.content__body .content__body__firstRow,
+.content__body .content__body__secondRow,
+.content__body .content__body__thirdRow,
+.content__body .content__body__fourthRow {
+  display: flex;
+  margin-bottom: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content__body__firstRow .content__body_lhs,
+.content__body__secondRow .content__body_lhs,
+.content__body__thirdRow .content__body_lhs,
+.content__body__fourthRow .content__body_lhs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content__body__firstRow .content__body_lhs .image_box,
+.content__body__secondRow .content__body_lhs .image_box,
+.content__body__thirdRow .content__body_lhs .image_box,
+.content__body__fourthRow .content__body_lhs .image_box {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin: 0 10px 0 15px;
+  background-color: navy;
+}
+
+.content__body__firstRow .content__body_lhs .image_box > img,
+.content__body__secondRow .content__body_lhs .image_box > img,
+.content__body__thirdRow .content__body_lhs .image_box > img,
+.content__body__fourthRow .content__body_lhs .image_box > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.content__body__firstRow .content__body_lhs .details,
+.content__body__secondRow .content__body_lhs p,
+.content__body__thirdRow .content__body_lhs p,
+.content__body__fourthRow .content__body_lhs p {
+  color: #747474;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: .2px;
+}
+
+.content__body__firstRow .content__body_lhs .details > p:last-child,
+.content__body__secondRow .content__body_lhs p,
+.content__body__thirdRow .content__body_lhs p,
+.content__body__fourthRow .content__body_lhs p {
+  color: #464646;
+}
+
+.content__body__firstRow i,
+.content__body__thirdRow i,
+.content__body__fourthRow i {
+  color: #464646;
+  font-size: 21.5px;
+}
+
+.content__body__secondRow i {
+  color: #f68126;
+  font-size: 21.5px;
+}
