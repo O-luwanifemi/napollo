@@ -1,0 +1,81 @@
+.fr_song_card {
+  width: 158px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.fr_song_card .fr_song_card_img {
+  width: 155px;
+  height: 150px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #6e6e6e;
+}
+
+.fr_song_card .fr_song_card_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.fr_song_card .fr_song_card_img .fr_brand_logo {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  background-color: #f68126;
+}
+
+.fr_song_card .fr_song_card_img .hide {
+  display: none !important;
+}
+
+.fr_song_card .fr_brand_logo img {
+  width: 60%;
+}
+
+.fr_song_card .fr_song_card_title_row,
+.fr_song_card .fr_song_card_artiste_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fr_song_card .fr_song_card_title_row {
+  margin-top: 10px;
+  padding: 0 15px 0 5px;
+}
+
+.fr_song_card .fr_song_card_title_row > p,
+.fr_song_card .fr_song_card_artiste_row p  {
+  font-size: 13px;
+  color: #464646;
+}
+
+.fr_song_card .fr_song_card_title_row > i {
+  font-size: 19px;
+  color: #6e6e6e;
+}
+
+.fr_song_card .fr_song_card_artiste_row {
+  padding: 0 10px 0 5px;
+}
+
+.fr_song_card .fr_song_card_artiste_row p {
+  color: #f68126;
+}
+
+.fr_song_card .fr_song_card_artiste_row h4.white {
+  color: #747474;
+  font-weight: 400;
+}
+
+.fr_song_card .fr_song_card_artiste_row h4.colored {
+  color: #f68126;
+  font-weight: 400;
+}
